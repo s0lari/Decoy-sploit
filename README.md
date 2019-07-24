@@ -13,7 +13,7 @@ Hopefully add more to this based on the rest of the functions of PowerSploit.
 
 You can place these in a similar location in your domain. 
 
-"\\DEMO.LAB\SYSVOL\demo.lab\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Preferences\Groups\Groups.xml"
+"\\\DEMO.LAB\SYSVOL\demo.lab\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Preferences\Groups\Groups.xml"
 
 
 **Disclaimer - test this in your test environment, if it breaks anything in your prod, then that is your responsibility.**
