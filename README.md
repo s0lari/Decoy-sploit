@@ -15,5 +15,6 @@ You can place these in a similar location in your domain.
 
 "\\\DEMO.LAB\SYSVOL\demo.lab\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\MACHINE\Preferences\Groups\Groups.xml"
 
+If you're forced into a situation where you cannot get rid of your GPPassword file, you could always generate a lot of them with random similar looking permutations of the password that you have in your environment, then trigger off these if possible to your SOC. Perhaps even have them genuinely authenticate into a honeypot/honey network so they spend some time there instead of in your prod environment.
 
 **Disclaimer - test this in your test environment, if it breaks anything in your prod, then that is your responsibility.**
