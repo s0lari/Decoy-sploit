@@ -1,5 +1,5 @@
 # Decoy-sploit
-Bunch of honey related items that spoof powersploit.
+Bunch of honey related items that spoof powersploit. The reason for chosing powersploit is that it is a good example of a lot of TTPs that attackers/red teamers use that are also in other tools- this means that we should be able to kill many birds with one stone.
 
 Starting small, and adding more as I add in interesting methods.
 
