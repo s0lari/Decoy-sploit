@@ -7,6 +7,7 @@ Starting small, and adding more as I add in interesting methods.
 
 Generally anything around https://canarytokens.org is a winner - add the various terms the system is looking for in the file (pdf, word etc)
 
+
 pass
 sensitive
 admin
