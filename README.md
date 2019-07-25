@@ -49,7 +49,7 @@ If you're forced into a situation where you cannot get rid of your GPPassword fi
 
 
 
-## Recon module - Find-interestingFile
+## Recon module - Find-interestingFile / Invoke-FileFinder
 
 Load a command prompt and run the following script - it will output a ~1gb file containing terms that this script finds by default - feel free to add some more - makes it fun for if they are exporting to a csv file - the more terms you add the larger the csv results. Could also just grab a password dump and leave that somewhere - but that may be helping them a bit too much ;) 
 
@@ -88,3 +88,7 @@ To detect this, I'd suggest this : https://github.com/s0lari/Hornets-Nest#honey-
 ## Invoke-ReverseDnsLookup
 
 This will look for PTR records associated with IP ranges. Configure your DNS server to log DNS, forward these logs to your SIEM, create a decoy PTR record for various ranges that you use (use a decent name), but ensure the associated IP isn't genuine. Log whenever this PTR record is queried from your DNS server.
+
+## Find-DomainShare / Invoke-ShareFinder
+
+Pretty simple - create a share on a random system that is domain joined, and log all attempts to access the share, send logs to SIEM, alert, winning! Ensure that this share is not added to users generally and would specifically take someone going to the machine directly to view the share resources.
