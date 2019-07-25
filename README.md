@@ -1,7 +1,7 @@
 # Decoy-sploit
 Bunch of honey related items that spoof powersploit. The reason for chosing powersploit is that it is a good example of a lot of TTPs that attackers/red teamers use that are also in other tools- this means that we should be able to kill many birds with one stone.
 
-Starting small, and adding more as I add in interesting methods.
+Starting small, and adding more as I add in interesting methods. Wider concepts can be found on my resource repo : https://github.com/s0lari/Hornets-Nest
 
 **Disclaimer - test this in your test environment, if it breaks anything in your prod, then that is your responsibility.**
 
