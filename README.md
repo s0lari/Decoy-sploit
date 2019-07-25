@@ -44,16 +44,27 @@ If you're forced into a situation where you cannot get rid of your GPPassword fi
 Load a command prompt and run the following script - it will output a ~1gb file containing terms that this script finds by default - feel free to add some more - makes it fun for if they are exporting to a csv file - the more terms you add the larger the csv results. Could also just grab a password dump and leave that somewhere - but that may be helping them a bit too much ;) 
 
 echo pass >> pass.txt
+
 echo sensitive >> pass.txt
+
 echo admin >> pass.txt
+
 echo login >> pass.txt
+
 echo secret >> pass.txt
+
 echo unattend1.xml >> pass.txt
+
 echo creds >> pass.txt
+
 echo credential >> pass.txt
+
 echo .config >> pass.txt
+
 echo .vmdk >> pass.txt
+
 echo password >> pass.txt
+
 for /L %i in (1,1,50) do type pass.txt >> pass.txt
 
 If you change the '50' to a larger number it will result in much larger file sizes.
