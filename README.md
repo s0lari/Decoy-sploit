@@ -83,7 +83,7 @@ Place this file on a generally accessible share - also set it up for file auditi
 
 ## Invoke-Kerberoast
 
-To detect this, I'd suggest this : https://github.com/s0lari/Hornets-Nest#honey-users
+To detect this, I'd suggest this : https://github.com/s0lari/Hornets-Nest/blob/master/README.md#kerberoasting-honey-spn
 
 ## Invoke-ReverseDnsLookup
 
