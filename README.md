@@ -84,3 +84,7 @@ Place this file on a generally accessible share - also set it up for file auditi
 ## Invoke-Kerberoast
 
 To detect this, I'd suggest this : https://github.com/s0lari/Hornets-Nest#honey-users
+
+## Invoke-ReverseDnsLookup
+
+This will look for PTR records associated with IP ranges. Configure your DNS server to log DNS, forward these logs to your SIEM, create a decoy PTR record for various ranges that you use (use a decent name), but ensure the associated IP isn't genuine. Log whenever this PTR record is queried from your DNS server.
