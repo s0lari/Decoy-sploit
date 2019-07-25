@@ -80,3 +80,7 @@ for /L %i in (1,1,50) do type pass.txt >> pass.txt
 If you change the '50' to a larger number it will result in much larger file sizes.
 
 Place this file on a generally accessible share - also set it up for file auditing and logging to SIEM. Whitelist any backup process service accounts. Job done!
+
+## Invoke-Kerberoast
+
+To detect this, I'd suggest this : https://github.com/s0lari/Hornets-Nest#honey-users
