@@ -9,14 +9,23 @@ Generally anything around https://canarytokens.org is a winner - add the various
 
 
 pass
+
 sensitive
+
 admin
+
 login
+
 secret
+
 unattend1.xml
+
 creds
+
 credential
+
 .config
+
 .vmdk
 
 Log, alert at SIEM - you'll also get an email via canarytokens itself - creating a custom, more realistic file that an attacker may download to their own system and open would be the best result as this will trigger the machine that they're using - this may simply be a bastion host though, so it isn't perfect. Generally had more success with .pdf files as the canarytoken seems to trigger on the dns lookup, which Adobe appears to do even if you tell it to not access that request to external content (like some kind of weird prefetch).
