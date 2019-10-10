@@ -57,7 +57,7 @@ John the ripper can be used to generate passwords based off a single entry:
 
 To give you an idea of what this can do, I ran this in my test environment, and the larger list created a file with around 1,010,000 passwords, which after randomising the list (by this method : https://www.excel-easy.com/examples/randomize-list.html - ensure you format the first column as text before you paste in otherwise passwords with a '=' show as #name) resulted in the Get-GPPassword module running for 16 Minutes 15 seconds. You could paste the file in the folder structure in such a way as it gets processed first, and last - frankly as many times as you'd like to frustrate attackers. The file size is around 42MB. This is simply a buying time exercise - all of these files should be alerted on in your SOC as soon as someone touches them.
 
-## Splunk Queries:
+**Splunk Queries:**
 The query to detect this in Splunk is the following (assuming you've enabled file auditing on this file in the SYSVOL folder):
 
 ```
