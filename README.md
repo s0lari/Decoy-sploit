@@ -49,8 +49,8 @@ If you're forced into a situation where you cannot get rid of your GPPassword fi
 
 John the ripper can be used to generate passwords based off a single entry:
 
-1) Create a single txt file containing your password
-2) type : john --wordlist=<your wordlist.txt> -rules:o2 -stdout > mangled-password.txt
+1) Create a single txt file containing your password (eg password.txt)
+2) type : john --wordlist=password.txt -rules:o2 -stdout > mangled-password.txt
 3) You can create a smaller list by using : john --wordlist=<your worldlist.txt> -rules:Wordlist -stdout > managled-password.txt
 4) ???
 5) Profit!
