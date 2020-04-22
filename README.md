@@ -38,8 +38,9 @@ Three pre-made decoys in this repo:
 1) Blank scrolling - this Group.xml file is 5000 lines of blank followed by a single entry that can be adjusted to your needs if you use my Cyber-Chef recipes here https://github.com/s0lari/Hornets-Nest#cyberchef-recipes - just reverse it, make your changes, then re-encrypt. Reason for this is if you put the Groups.xml file in the root of Policies, it will be processed last, which then means the others passwords will be pushed up off the powershell view without additional powershell listing commands.
 2) Doppleganger output - this will create a list of outputs that look mostly like powersploit's output - you can add/remove users and PW in these entries.
 3) Rick Roll - Can't have honey-related stuff without Rick Rolling :) 
+4) clear-output - This is a new one that takes advantage of powershell escape characters to blank the terminal of the powershell user - this is useful if you want to blank all output from this tool to the console. This doesn't work however if the user outputs to a text file and views the output in notepad or the such. 
 
-Hopefully add more to this based on the rest of the functions of PowerSploit.
+Hopefully add more to this based on the rest of the functions of PowerSploit - especially relating to the use of powershell escape characters to attempt to mess with the output of various tools. Thanks to this page for the inspiration : https://www.infosecmatter.com/terminal-escape-injection/
 
 You can place these in a similar location in your domain. 
 
