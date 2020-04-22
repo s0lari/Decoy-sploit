@@ -40,7 +40,7 @@ Three pre-made decoys in this repo:
 3) Rick Roll - Can't have honey-related stuff without Rick Rolling :) 
 4) clear-output - This is a new one that takes advantage of powershell escape characters to blank the terminal of the powershell user - this is useful if you want to blank all output from this tool to the console. This doesn't work however if the user outputs to a text file and views the output in notepad or the such. 
 
-Hopefully add more to this based on the rest of the functions of PowerSploit - especially relating to the use of powershell escape characters to attempt to mess with the output of various tools. Thanks to this page for the inspiration : https://www.infosecmatter.com/terminal-escape-injection/
+Hopefully add more to this based on the rest of the functions of PowerSploit - especially relating to the use of powershell escape characters to attempt to mess with the output of various tools. Thanks to this page for the inspiration : https://www.infosecmatter.com/terminal-escape-injection/ - need to also put in some characters to cover bash terminal to see if it clears metasploit (and such) terminals too. Room to input funny ascii messages to the threat actor in full rgb glory too =) 
 
 You can place these in a similar location in your domain. 
 
